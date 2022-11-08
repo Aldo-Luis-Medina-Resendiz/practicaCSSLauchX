@@ -1,0 +1,29 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.5rem;
+    text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%)
+  }
+
+
+.main-image{
+    width: 40rem;
+    display: inline-flex;
+    float: right;
+}
+.sub-title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1, h2{
+    color: #1F3E72;
+}
+
+p{
+    color: #728097;
+}
+
+footer{
+    color: #EEF3FF;
+}
+

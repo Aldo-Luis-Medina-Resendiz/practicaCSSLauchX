@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="./img/favicon.ico">
+
+        <!--link de estilos de bootsrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <style>
+            .bd-placeholder-img {
+              font-size: 1.125rem;
+              text-anchor: middle;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+            }
+      
+            @media (min-width: 768px) {
+              .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+              }
+            }
+          </style>
+          <!--Hoja de estilos personalizada-->
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>Campaña de Vacunación</title>
+    </head>
+    <body class="text-center">
+        <div class=" d-flex mx-auto flex-column">
+
+            <header class="masthead">
+                <div class="inner">
+                    <h3 class="masthead-brand">Vacunación</h3>
+                    <nav class="nav nav-masthead justify-content-center">
+                        <a class="nav-link active" href="#">Inicio</a>
+                        <a class="nav-link" target="_blank" href="https://www.gob.mx/salud/documentos/comunicados-tecnicos-diarios-covid19">Noticias</a>
+                        <a class="nav-link" target="_blank" href="./about-us.html">Contacto</a>
+                        <a class="nav-link" target="_blank" href="https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico">Datos</a>
+                        <a href="https://vacunacovid.gob.mx/" target="_blank"
+                        class="btn btn-sm btn-secondary nav-button shadow-b">Vacuna Covid</a>
+                    </nav>
+                </div>
+            </header>
+                            
+            <main role="main" class="inner cover">
+                <div class="container-fluid text-container-left lg-top-margin">
+                    <h1 class="cover-heading">Combate El Virus Con Vacunas.
+                        <p>Detengamos esta pandemia destruyendo el virus con 
+                        una vacuna, no dejes a tu familia y a ti a merced del virus.</p>
+                    </h1>
+                    
+                </div>
+
+                <img src="./img/pexels-artem-podrez-5878503.jpg" 
+                alt="Imagen Vacuna" class="img-right clear-fix">
+
+                <br>
+
+                <div class="form-row text-container-left">
+                    <div class="col">
+                        <p><img class="text-icon" src="https://cdn-icons-png.flaticon.com/512/306/306047.png" alt="shield-check">
+                        Mejor Protección</p>
+                    </div>
+    
+                    <div class="col">
+                        <p><img src="https://cdn-icons-png.flaticon.com/512/1828/1828857.png" alt="star" class="text-icon">
+                         Vacunas Seleccionadas</p>
+                    </div>
+                </div>
+
+                <form class="main-form">
+                    <div>
+                        <h5 class="card-title emergency-card-title"><img src="https://cdn-icons-png.flaticon.com/512/1827/1827336.png" alt="clock" class="text-icon">
+                         Agenda tus vacunas</h5>
+                    </div>
+                    <div class="form-row custom-row">
+                      <div class="col">
+                        <label for="location"><img src="https://cdn-icons-png.flaticon.com/512/149/149060.png" alt="location-icon" class="text-icon">
+                            Estado</label>
+                        <input list="location" name="location" class="form-control" placeholder="Ciudad de México">
+                        <datalist id="location">
+                            <option value="Ciudad de México">
+                            <option value="Querétaro">
+                            <option value="Morelos">
+                            <option value="Puebla">
+                            <option value="Sinaloa">
+                            <option value="Tijuana">
+                            <option value="Guanajuato">
+                            <option value="Zacatecas">
+                            <option value="Tamaulipas">
+                            <option value="Yucatán">
+                        </datalist>
+                      </div>
+                      <div class="col">
+                        <label for="fecha"><img src="https://cdn-icons-png.flaticon.com/512/5323/5323026.png" alt="calendar" class="text-icon">Fecha</label>
+                        <input type="datetime-local" name="fecha" class="form-control" placeholder="08-julio-2022">
+                      </div>
+                      <div class="col">
+                        <label for="tipo-vacuna"><img src="https://cdn-icons-png.flaticon.com/512/3277/3277770.png" alt="Vacuna" class="text-icon">Fecha</label>
+                        <input list="tipo-vacuna" name="tipo-vacuna" class="form-control" placeholder="Pfizer">
+                        <datalist id="tipo-vacuna">
+                            <option value="Pfizer">
+                            <option value="AstraZeneca">
+                            <option value="Gam-COVID-Vac">
+                            <option value="Sinovac">
+                            <option value="Cansino">
+                            <option value="Covaxin">
+                            <option value="Janssen">
+                            <option value="Moderna">
+                            <option value="Sinopharm">
+                            <option value="Abdala">
+                        </datalist>
+                      </div>
+                      <div class="col">
+                        <a href="./sign-up.html" target="_blank" class="btn btn-lg btn-secondary lead">Enviar</a>
+                      </div>
+                    </div>
+                  </form>
+
+            </main>
+
+            <section class="banner-brands">
+                <div>
+                    <img class="banner banner-grey" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.eHG6QhNFKc1czrhl9hwyjgHaB2%26pid%3DApi&f=1&ipt=0c1705500217abc3da20f24328432d77212c3313afc4dc4a8c84f4ef9442a12a&ipo=images" alt="Banner de vacunas AstraZeneca">
+                    <img class="banner banner-grey" src="https://static01.nyt.com/newsgraphics/2020/09/10/coronavirus-vaccine-tracker/assets/images/sinovac-800.png" alt="Banner de vacunas Sinovac">
+                    <img class="banner banner-grey" src="https://www.kxnet.com/wp-content/uploads/sites/16/2021/02/Pfizer.jpg?w=1280" alt="Banner de vacunas Pfizer">
+                    <img class="banner banner-grey" src="https://www.keionline.org/wp-content/uploads/Moderna-logo.jpg" alt="Banner de vacunas Moderna">
+                </div>
+            </section>
+
+
+            <section class="reasons-vaccine">
+                <div class="container-fluid text-container-left lg-top-margin">
+                    <h1 class="cover-heading">¿Por qué debería vacunarme?
+                        <p>Para eliminar toda duda acerca de la vacuna para el COVID-19, 
+                        identifique los siguientes 4 beneficios acerca de la vacuna del COVID-19:</p>
+                    </h1>
+                </div>
+
+                
+
+                <div class="container-fluid card-deck padding-left-right md-margin-top">
+                    <div class="card" style="width: 9rem;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/8391/8391097.png" class="card-img-top card-icon" alt="dos personas">
+                        <div class="card-body">
+                            <h5 class="card-title">Minimiza el riego de contagio</h5>
+                            <p class="card-text">La vacuna se ha probado efectiva al prevenir el contagio del Coronavirus</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 9rem;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/7170/7170340.png" class="card-img-top card-icon" alt="escudo con palomita">
+                        <div class="card-body">
+                            <h5 class="card-title">Forma anticuerpos</h5>
+                            <p class="card-text">Se ha demostrado que la vacuna COVID-19 ayuda a dar forma a la respuesta de anticuerpos para el sistema inmunitario</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 9rem;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5156/5156740.png" class="card-img-top card-icon" alt="grupo de personas">
+                        <div class="card-body">
+                            <h5 class="card-title">Protege las personas a tu alrededor</h5>
+                            <p class="card-text">Vacunarse contra el COVID-19 puede ayudar a proteger a nuestros seres queridos y personas que nos rodean.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 9rem;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5048/5048373.png" class="card-img-top card-icon" alt="tasa incremental">
+                        <div class="card-body">
+                            <h5 class="card-title">Crea inmunidad de grupo</h5>
+                            <p class="card-text">La vacuna tambien beneficia a crear inmunidad de grupo.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<br><br>
+            <section class="things-before-vaccine">
+                <div class="container-fluid text-container-right lg-top-margin">
+                    <h1 class="cover-heading">Preparaciones antes de tu vacuna
+                        <p>La eficacia de las vacunas está estrechamente relacionada con la fortaleza del sistema inmune. 
+                            Por lo tanto, hay varias cosas que puedes hacer para aumentar la eficacia de la vacuna: </p>
+                    </h1>
+
+                    <br>
+
+                    <div class="dropdown-div shadow-b container-fluid ">
+                        <div>
+                            <img class="card-icon md-margin-right" src="https://cdn-icons-png.flaticon.com/512/8443/8443950.png" alt="escudo con x">
+                        </div>
+                        <h5 class="card-title md-margin-right xsm-margin-top">Evita bebidas alcoholicas</h5>
+                        <details>
+                            <summary></summary>
+                                <div class="container-lg">
+                                    <div class="card-body">
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                        </details>
+                        
+                    </div>
+
+                    <div class="dropdown-div shadow-b container-fluid ">
+                        <div>
+                            <img class="card-icon md-margin-right" src="https://cdn-icons-png.flaticon.com/512/8791/8791936.png" alt="escudo con x">             
+                        </div>
+                        <h5 class="md-margin-right card-title xsm-margin-top">Evita el estrés</h5>
+                        <details>
+                            <summary></summary>
+                                <div class="container-lg">
+                                    <div class="card-body">
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                        </details>
+                    </div>
+
+                    <div class="dropdown-div shadow-b container-fluid ">
+                        <div>
+                            <img class="card-icon md-margin-right" src="https://cdn-icons-png.flaticon.com/512/8527/8527901.png" alt="escudo con x">             
+                        </div>
+                        <h5 class="md-margin-right card-title xsm-margin-top">Come saludable</h5>
+                        <details>
+                            <summary></summary>
+                                <div class="container-lg">
+                                    <div class="card-body">
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                        </details>
+                    </div>
+
+                    <div class="dropdown-div shadow-b container-fluid ">
+                        <div>
+                            <img class="card-icon md-margin-right" src="https://cdn-icons-png.flaticon.com/512/1883/1883931.png" alt="escudo con x">             
+                        </div>
+                        <h5 class="md-margin-right card-title xsm-margin-top">Duerme lo suficiente</h5>
+                        <details>
+                            <summary></summary>
+                                <div class="container-lg">
+                                    <div class="card-body">
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                        </details>
+                    </div>
+                    
+                </div>
+
+                <img src="https://images.pexels.com/photos/5863365/pexels-photo-5863365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                alt="Imagen Vacuna" class="img-left clear-fix">
+            </section>
+
+            <br><br>
+
+            <section class="emergency-contact">
+                <div class="container-fluid text-container-left lg-top-margin">
+                    <h1 class="cover-heading">Contacto de Emergencia.
+                        <p>Ponte en contacto con alguno de los números de aquí abajo si tú o tu familia no se seinten bien y/o tienen síntoma similares al COVID-19, asegúrate de cuidarte a tí mismo:</p>
+                    </h1>
+
+                    <br>
+                    
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                          <div class="card">
+                            <div class="card-body">
+                                <div class="container-fluid">
+                                    <img class="card-icon img-left emergency-card-topandright-margin" src="https://cdn-icons-png.flaticon.com/512/2954/2954123.png" alt="telefono">
+                                    <h5 class="card-title emergency-card-title">Call</h5>
+                                    <p class="emergency-card-p">021.123.145.14</p>
+                                </div>
+                                
+                                <a href="#" class="btn btn-primary">Llamar Ahora</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="card">
+                            <div class="card-body">
+                                <div>
+                                    <img class="card-icon img-left emergency-card-topandright-margin" src="https://cdn-icons-png.flaticon.com/512/724/724689.png" alt="chat">
+                                    <h5 class="card-title emergency-card-title">Chat</h5>
+                                    <p class="emergency-card-p">021.123.145.14</p>
+                                </div>
+                              
+                              <a href="#" class="btn btn-primary">Chatea Ahora</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <br><br>
+
+                      <!--Second row-->
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="card">
+                            <div class="card-body">
+                                <div >
+                                    <img class="card-icon img-left emergency-card-topandright-margin" src="https://cdn-icons-png.flaticon.com/512/2899/2899132.png" alt="camara de video">
+                                    <h5 class="card-title emergency-card-title">Videollamada</h5>
+                                    <p class="emergency-card-p">021.123.145.14</p>
+                                </div>
+                              <a href="#" class="btn btn-primary">LLama Ahora</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="card">
+                            <div class="card-body">
+                                <div>
+                                    <img class="card-icon img-left emergency-card-topandright-margin" src="https://cdn-icons-png.flaticon.com/512/893/893257.png" alt="mensaje">
+                                    <h5 class="card-title emergency-card-title">Mensaje</h5>
+                                    <p class="emergency-card-p">021.123.145.14</p>
+                                </div>
+
+                              <a href="#" class="btn btn-primary">Mensajea Ahora</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                
+
+                <img src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                alt="Imagen Vacuna" class="img-right clear-fix">
+            </section>
+
+            <br><br>
+
+            <footer class="mastfoot mt-auto">
+                <div class="text-container-left md-margin-top">
+                    <h3 class="masthead-brand">Vacunación</h3>
+                    <p class="text-width card-text">Nuestra meta es ayudar al país y hacer todo lo que podamos contra la pandemia que vivimos.</p>
+                </div>
+
+                <div>
+                    <div class="card-group">
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="emergency-card-title card-title">Acerca de nosotros</h5>
+                            <p class="card-text sm-margin-top"><a href="./about-us.html" target="_blank">Acerca de Nosotros</a></p>
+                            <p class="card-text sm-margin-top"><a href="#">Características</a></p>
+                            <p class="card-text sm-margin-top"><a href="#">Noticias y Blog</a></p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title emergency-card-title">Compañía</h5>
+                            <p class="card-text sm-margin-top"><a href="#">¿Cómo trabajamos?</a></p>
+                            <p class="card-text sm-margin-top"><a href="#">Capital</a></p>
+                            <p class="card-text sm-margin-top"><a href="#">Seguridad</a></p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="emergency-card-title card-title">Atención</h5>
+                            <p class="card-text sm-margin-top"><a href="https://coronavirus.gob.mx/preguntas-frecuentes/" target="_blank">FAQs</a></p>
+                            <p class="card-text sm-margin-top"><a href="#">Centro de Atención</a></p>
+                            <p class="card-text sm-margin-top"><a href="./contact-us.html" target="_blank">Conctáctanos</a></p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                
+
+                <br> <br>
+                <div>
+                    <p class="footer-item">2022 Vacunación©. Todos los derechos reservados</p>
+                    <p class="footer-item footer-right"><a href="#">Términos y Condiciones</a></p>
+                    <p class="footer-item"><a href="#">Política de Privacidad</a></p>
+                </div>
+                
+                <!--Scripts de bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+            </footer>
+        </div>
+        
+    </body>
+</html>
